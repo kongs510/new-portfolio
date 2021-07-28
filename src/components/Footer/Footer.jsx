@@ -2,9 +2,9 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
 
 import { githubButtons } from '../../mock/data';
+import ProjectImg from '../Image/ProjectImg';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="social-links">
           {networks &&
             networks.map((network) => {
-              const { id, name, url } = network;
+              const { id, name, url, img } = network;
               return (
                 <a
                   key={id}
@@ -31,7 +31,9 @@ const Footer = () => {
                   target="_blank"
                   aria-label={name}
                 >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  <i className={`fa fa-${name} fa-inverse`}>
+                    <ProjectImg filename={img} />
+                  </i>
                 </a>
               );
             })}
@@ -43,8 +45,6 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );

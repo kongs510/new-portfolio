@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'mypoto.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -61,6 +61,7 @@ export const contactData = {
   cta2: '연락주세요🙇‍♂️',
   btn: '연락하기',
   email: 'comingdown@naver.com',
+  img: "navpoto.png"
 };
 
 // FOOTER DATA
@@ -77,6 +78,12 @@ export const footerData = {
       img: 'github.png',
       name: '',
       url: 'https://github.com/kongs510',
+    },
+    {
+      id: nanoid(),
+      img: 'blog.png',
+      name: '',
+      url: 'https://blog.naver.com/comingdown',
     },
   ],
 };

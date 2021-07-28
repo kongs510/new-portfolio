@@ -30,17 +30,13 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
-                >
-                  <i className={`fa fa-${name} fa-inverse`}>
-                    <ProjectImg filename={img} />
-                  </i>
-                </a>
+                ></a>
               );
             })}
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
+          © {new Date().getFullYear()} - min cheol Kong{' '}
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
             Jacobo Martínez
           </a>

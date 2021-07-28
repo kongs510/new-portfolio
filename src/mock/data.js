@@ -57,9 +57,10 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta1: '오랫동안 함께할 동료를 기다립니다!',
+  cta2: '연락주세요🙇‍♂️',
+  btn: '연락하기',
+  email: 'comingdown@naver.com',
 };
 
 // FOOTER DATA

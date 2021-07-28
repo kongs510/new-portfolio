@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta1, cta2, btn, email } = contact;
 
   return (
     <section id="contact">
@@ -15,7 +15,9 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta1 || 'Would you like to work with me? Awesome!'}
+              <br />
+              {cta2 || 'Would you like to work with me? Awesome!'}
             </p>
             <a
               target="_blank"

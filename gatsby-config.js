@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `front-end Developer 공민철입니다.`,
-        short_name: `Simplefolio`,
+        short_name: `공민철 포트폴리오`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,

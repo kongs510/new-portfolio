@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: '안녕하십니까? 저의 이름은', // Hello, my name is
+  name: '공민철입니다.', // John
+  subtitle: '저는 프론트엔드 개발자입니다.', // I'm the Unknown Developer.
+  cta: '더 알아보기', // Know more
 };
 
 // ABOUT DATA

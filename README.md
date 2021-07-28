@@ -110,10 +110,10 @@ Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 
 ```javascript
 export const heroData = {
-  title: '', // Hello, my name is
-  name: '', // John
-  subtitle: '', // I'm the Unknown Developer.
-  cta: '', // Know more
+  title: '안녕하십니까? 저의 이름은', // Hello, my name is
+  name: '공민철입니다.', // John
+  subtitle: '저는 프론트엔드 개발자입니다.', // I'm the Unknown Developer.
+  cta: '더 알아보기', // Know more
 };
 ```
 

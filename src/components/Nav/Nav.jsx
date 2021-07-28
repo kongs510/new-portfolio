@@ -6,12 +6,12 @@ function Nav() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   };
-
   return (
     <section className="Header">
       <nav>
         <button className="btn" id="logo-wrapper" onClick={scrollTop}>
-          <img id="logo-image" src="/img/home.png" alt="페이지 맨 위로 이동하기" />
+          <img id="logo-image" src="../img/home.png" alt="페이지 맨 위로 이동하기" />
+          {/* C:\coding\portfolio\public\img\home.png */}
         </button>
         <a
           href="https://drive.google.com/file/d/1VnjRsdQiLzxdUWIlpcSaF1OoieyHhLud/view?usp=sharing"

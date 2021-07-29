@@ -30,17 +30,14 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                   aria-label={name}
-                ></a>
+                >
+                  <ProjectImg filename={img} />
+                </a>
               );
             })}
         </div>
         <hr />
-        <p className="footer__text">
-          © {new Date().getFullYear()} - min cheol Kong{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
-          </a>
-        </p>
+        <p className="footer__text">© {new Date().getFullYear()} - min cheol Kong </p>
       </Container>
     </footer>
   );

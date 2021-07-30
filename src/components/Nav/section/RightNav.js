@@ -1,9 +1,8 @@
 import { Menu } from 'antd';
-import MenuItem from 'antd/lib/menu/MenuItem';
-import SubMenu from 'antd/lib/menu/SubMenu';
 import React from 'react'
 import NavImg from '../../Image/NavImg';
 import styled from 'styled-components'
+import { Link } from 'react-scroll';
 
 
 function RightNav({ img }) {
@@ -11,13 +10,19 @@ function RightNav({ img }) {
     return (
         <RightMenu>
             <Menu>
-                about
+                <Link to="about" smooth duration={1000}>
+                    About
+                </Link>
             </Menu>
             <Menu>
-                Project
+                <Link to="projects" smooth duration={1000}>
+                    Project
+                </Link>
             </Menu>
             <Menu>
-                Contact
+                <Link to="contact" smooth duration={1000}>
+                    Contact
+                </Link>
             </Menu>
             <Menu>
                 <a
@@ -29,7 +34,7 @@ function RightNav({ img }) {
                     <NavImg filename={img} />
                 </a>
             </Menu>
-        </RightMenu>
+        </RightMenu >
     )
 }
 
@@ -37,9 +42,10 @@ function RightNav({ img }) {
 const RightMenu = styled.div`
   border: none;
   float: right;
-  width: 60%;
+  width: 40%;
+  padding-right:5rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 `
 

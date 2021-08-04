@@ -2,26 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: '',
+  lang: '',
+  description: '',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '안녕하십니까? 저의 이름은', // Hello, my name is
+  title: '안녕하십니까? 저의 이름은',
   name: '공민철입니다.', // John
-  subtitle: '저는 프론트엔드 개발자입니다.', // I'm the Unknown Developer.
-  cta: '더 알아보기', // Know more
+  subtitle: '저는 프론트엔드 개발자입니다.',
+  cta: '더 알아보기',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'mypoto.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  aboutOne: "디자인과 프로그래밍 사이를 단단하게 잇는 프론트엔드 개발자를 목표로, 2020년 봄부터 꾸준히 프로그래밍을 공부하고 있습니다.",
+  aboutTwo: "저는 지난 몇 년 동안에는 두산그룹 회장단 보안 및 의전담당으로 재직하였던 경험이 있습니다.",
+  aboutThree: "오랜기간 회사에 재직했던 경험으로 인하여 조직간에 원활한 의사소통으로 인한 업무효율에 대해 이해하고 있으며 함께 하는것이 무엇인가? 함께 하려면 어떻게 해야 하느냐? 등 한순간 한순간 협업에 대해 고민하고 있습니다.",
+  aboutFour: "현재 React 기반으로 개발을 진행하고 있으며, 새로운 기술/지식 등에 있어서 도전적인 정신을 가지고 매일 공부하고 있습니다.",
+  aboutFive: "함께 하는 동료로서 오랫동안 회사와 함께 성장하길 기원합니다.감사합니다.",
+  resume: '',
 };
 
 // PROJECTS DATA

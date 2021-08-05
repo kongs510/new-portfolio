@@ -4,7 +4,8 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
-
+import Nav from './Nav/Nav';
+import MiniProjects from './Projects/MiniProjects';
 import { PortfolioProvider } from '../context/context';
 
 import {
@@ -15,8 +16,6 @@ import {
   contactData,
   footerData,
 } from '../mock/data';
-import Nav from './Nav/Nav';
-import MiniProjects from './Projects/MiniProjects';
 
 function App() {
   const [nav, setNav] = useState({});
@@ -32,7 +31,7 @@ function App() {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    setMiniProjects([...miniprojects]);
+    setMiniProjects([...miniprojectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);

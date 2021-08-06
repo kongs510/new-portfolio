@@ -15,7 +15,9 @@
     @include respond(phone) {
       margin-bottom: 0rem;
     }
-
+    .project-layout {
+      padding-bottom: 2rem;
+    }
     .row {
       margin-bottom: 8rem;
 

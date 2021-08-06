@@ -12,17 +12,21 @@ import {
   heroData,
   aboutData,
   projectsData,
-  miniprojectsData,
+  leftProjectsData,
+  rightProjectsData,
   contactData,
   footerData,
 } from '../mock/data';
+import LeftProject from './Projects/LeftProject';
+import RightProject from './Projects/RightProject';
 
 function App() {
   const [nav, setNav] = useState({});
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
   const [projects, setProjects] = useState([]);
-  const [miniprojects, setMiniProjects] = useState([]);
+  const [leftprojects, setLeftProjects] = useState([]);
+  const [rightprojects, setRightProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
 
@@ -31,13 +35,16 @@ function App() {
     setHero({ ...heroData });
     setAbout({ ...aboutData });
     setProjects([...projectsData]);
-    setMiniProjects([...miniprojectsData]);
+    setLeftProjects([...leftProjectsData]);
+    setRightProjects([...rightProjectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
 
   return (
-    <PortfolioProvider value={{ nav, hero, about, projects, miniprojects, contact, footer }}>
+    <PortfolioProvider
+      value={{ nav, hero, about, projects, leftprojects, rightprojects, contact, footer }}
+    >
       <Nav />
       <Hero />
       <About />

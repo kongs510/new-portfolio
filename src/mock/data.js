@@ -119,7 +119,7 @@ export const leftProjectsData = [
   {
     id: nanoid(),
     img: 'movieapp.jpg',
-    title: '무비평점 ',
+    title: '무비평점 landing page',
     introduction: '기능설명',
     info: 'landing page 구현',
     info1: 'detail page 구현',

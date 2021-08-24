@@ -50,7 +50,7 @@ const About = () => {
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
-                      Resume
+                      이력서 보기
                     </a>
                   </span>
                 )}

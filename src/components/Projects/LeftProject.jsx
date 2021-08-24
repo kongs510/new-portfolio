@@ -22,7 +22,24 @@ const LeftProject = () => {
   return (
     <>
       {leftprojects.map((leftprojects) => {
-        const { title, info, info2, url, repo, img, id } = leftprojects;
+        const {
+          title,
+          introduction,
+          info,
+          info1,
+          info2,
+          info3,
+          info4,
+          info5,
+          info6,
+          info7,
+          info8,
+          url,
+          repo,
+          repo1,
+          img,
+          id,
+        } = leftprojects;
         return (
           <>
             <Col lg={3} sm={12} className="project-layout">
@@ -61,15 +78,17 @@ const LeftProject = () => {
                 </div>
               </Fade>
               <h3 className="project-wrapper__text-title"> {title || 'Project Title'}</h3>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cta-btn cta-btn--hero"
-                href={url || '#!'}
-              >
-                See Live
-              </a>
 
+              {url && (
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta-btn cta-btn--hero"
+                  href={url || '#!'}
+                >
+                  See Live
+                </a>
+              )}
               {repo && (
                 <a
                   target="_blank"
@@ -80,13 +99,32 @@ const LeftProject = () => {
                   Source Code
                 </a>
               )}
+              {repo1 && (
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="cta-btn text-color-main"
+                  href={repo1}
+                >
+                  Source Code
+                </a>
+              )}
             </Col>
             <Col lg={3} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <div className="project-wrapper__text">
                   <div className="project-wrapper__text-content">
-                    <p>{info}</p>
-                    <p className="mb-4">{info2}</p>
+                    <strong>{introduction}</strong>
+                    <hr />
+                    <div>{info || ''}</div>
+                    <div>{info1 || ''}</div>
+                    <div>{info2 || ''}</div>
+                    <div>{info3 || ''}</div>
+                    <div>{info4 || ''}</div>
+                    <div>{info5 || ''}</div>
+                    <div>{info6 || ''}</div>
+                    <div>{info7 || ''}</div>
+                    <div>{info8 || ''}</div>
                   </div>
                 </div>
               </Fade>

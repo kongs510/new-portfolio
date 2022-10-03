@@ -95,14 +95,6 @@ const Projects = () => {
                     </Fade>
                   </Col>
                 </Row>
-                {/* <Row>
-                  <Col lg={3} sm={12}>
-                    ddddd
-                  </Col>
-                  <Col lg={3} sm={12}>
-                    ddddd
-                  </Col>
-                </Row> */}
               </>
             );
           })}

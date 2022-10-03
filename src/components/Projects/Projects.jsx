@@ -68,7 +68,7 @@ const Projects = () => {
                       </div>
                     </Fade>
                   </Col>
-                  <Col lg={5} sm={12}>
+                  <Col lg={6} sm={12}>
                     <Fade
                       left={isDesktop}
                       bottom={isMobile}

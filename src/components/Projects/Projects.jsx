@@ -61,7 +61,7 @@ const Projects = () => {
                             }}
                           >
                             <div data-tilt className="thumbnail rounded">
-                              <ProjectImg alt={title} filename={img} />
+                              {img && <ProjectImg alt={title} filename={img} />}
                             </div>
                           </Tilt>
                         </a>
@@ -83,14 +83,16 @@ const Projects = () => {
                           <p className="mb-4">{info2 || ''}</p>
                           <p className="mb-4">{info3 || ''}</p>
                         </div>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          See Live
-                        </a>
+                        {url && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--hero"
+                            href={url || '#!'}
+                          >
+                            See Live
+                          </a>
+                        )}
                       </div>
                     </Fade>
                   </Col>

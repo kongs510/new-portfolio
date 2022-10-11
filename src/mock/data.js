@@ -53,7 +53,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'sl.png',
     title: '쇼핑라이브 어드민',
     info: '라이브 커머스 쇼핑라이브 어드민 서비스',
     info2:
@@ -64,7 +64,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: '',
+    img: 'bt.png',
     title: '방송톡 어드민',
     info: '라이브 커머스 방송톡 어드민 서비스',
     info2:
@@ -127,7 +127,7 @@ export const leftProjectsData = [
     info6: '도메인 연결 및 배포 진행 ( 가비아 및 Netlify 이용 )',
     info7: '',
     info8: '',
-    url: 'https://kongs510.shop/',
+    url: 'https://kongs510.site/',
     repo: 'https://github.com/kongs510/new-portfolio', // if no repo, the button will not show up
   },
   {

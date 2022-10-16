@@ -24,7 +24,7 @@ export const aboutData = {
     '현재  SI 외주개발사업으로  자바스크립트 및 Java 기반 현대 hmall 쇼핑라이브/방송톡 어드민 웹페이지를 개선 및 고도화 작업을 진행하였고,현대 hmal 쇼핑라이브 다시보기 고객 웹페이지를 구현하였습니다.' +
     '내부 솔루션 으로는 메타버스 기반 실시간 강의 플랫폼인 아몬드 노트를 react-native 기반으로 mvp 및 신규 앱런칭전까지 개발을 진행하였던 경험이 있습니다.  또한 지난 몇 년 동안에는 두산그룹 회장단 보안 및 의전담당으로 재직하였던 경험이 있습니다. 오랜기간 회사생활로 인하여 조직간에 원활한 의사소통으로 인한 업무효율에 대해 이해하고 있으며 함께 하는것이 무엇인가?어떻게 함께 하느냐? 한순간 한순간 협업에 대해 고민하고 있습니다. ' +
     ' 새로운 기술/지식 등에 있어서 도전적인 정신을 가지고 매일 공부하고 있으며 오랫동안 회사와 함께 성장하길 기원합니다. 감사합니다.',
-  resume: 'https://drive.google.com/file/d/1WrzPanMSGnWCVziGrW9imiR-z7zjX8yc/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1F_QmUA4AmxwkwjaKPRwkCcK-qKsC65wy/view',
 };
 
 // PROJECTS DATA
